@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+    --userImgHeight: 35px;
+    --userImgWidth: 35px;
+    font-family: Roboto,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-header{
+    width: 80vw;
+    flex-direction: column;
+    align-self: flex-end;
+    display: inline-flex;
+    border: 3px solid black;
+}
+
+#top-header-img-user,#bottom-header-img-user{
+    border-radius: 60%;
+}
+
+#top-header-img-user{
+    height: var(--userImgHeight);
+    width: var(--userImgWidth);
+}
+
+#bottom-header-img-user{
+    height: calc(var(--userImgHeight) * 2) ;
+    width: calc(var(--userImgWidth) * 2);
+}
+
+.top-header{
+    display: inline-flex;
+    width: 95vw;
+    height: 10vh;
+    gap: 50px;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+
+#input-text{
+    margin-right: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.562);
+    width: 50vw;
+}
+
+.bottom-header{
+    display: flex;
+}
