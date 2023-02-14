@@ -220,3 +220,24 @@ body{
     grid-column-end: 9;
 }
 
+.Trending{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Trending-content{
+    gap: 9px;
+    margin-left: 2rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+}
+
+.right-border-content>.middle-text{
+    margin-top: -24px;
+}
